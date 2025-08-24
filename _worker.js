@@ -222,7 +222,7 @@ async function handleRootRequest(request, USERNAME, PASSWORD, enableAuth) {
       $(document).ready(function() {
         let originalImageURLs = [];
         let isCacheVisible = false;
-        let enableCompression = true;
+        let enableCompression = false;
         initFileInput();
         setBackgroundImages();
     
